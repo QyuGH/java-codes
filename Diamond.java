@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Diamond{
 
     public static void printDiamond(int num){
@@ -33,6 +32,6 @@ public class Diamond{
         System.out.print("Enter an integer: ");
         int num = scanner.nextInt();
 
-        printDiamond(height);
+        printDiamond(num);
     }
 }
