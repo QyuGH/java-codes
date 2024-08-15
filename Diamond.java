@@ -27,10 +27,10 @@ public class Diamond{
 
     }
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter an integer: ");
-        int num = scanner.nextInt();
+        int num = scan.nextInt();
 
         printDiamond(num);
     }
